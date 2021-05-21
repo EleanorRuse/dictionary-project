@@ -1,4 +1,4 @@
-import Banner from './Banner.gif';
+import logo from './logo.jpg';
 import './App.css';
 import Dictionary from "./Dictionary";
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <img src={Banner} className="Ele-logo" alt="logo" />
+        <img src={logo} className="Ele-logo" alt="logo" />
       </header>
       <main>
         <Dictionary />
