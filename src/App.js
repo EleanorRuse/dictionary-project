@@ -1,4 +1,5 @@
-import logo from './logo.jpg';
+import logo from './logo.png';
+import header from './header.png';
 import './App.css';
 import Dictionary from "./Dictionary";
 
@@ -7,13 +8,14 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <img src={logo} className="Ele-logo" alt="logo" />
+        <img src={header} className="dictionary-header" alt="header" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="coffee" />
       </main>
       <footer className="App-footer">
-        <small>Coded by Eleanor Ruse</small>
+         <img src={logo} className="Ele-logo" alt="logo" />
+        <small>Coded by Eleanor Ruse Open Sourced on GitHub</small>
         </footer>
     </div>
     </div>
