@@ -1,17 +1,20 @@
-import React from "react"; 
-import "./Phonetic.css"
+import React from "react";
+import "./Phonetic.css";
 
-export default function Phonetic(props){
-    return(
-        <div className="Phonetic">
-            <a href={props.phonetic.audio} target="blank">
-                Listen
-            </a>
-            <br />
-            <span className="text">
-            {props.phonetic.text}
-            </span>
-        </div>
-    )
-    
+export default function Phonetics({ phonetic }) {
+  const audio = new Audio(phonetic.audio);
+  const playSound = (audioFile) => {
+    audioFile.play();
+  };
+
+  return (
+    <div className="Phonetic">
+      <button
+        className="btn btn-outline-dark"
+        onClick={() => playSound(audio)}
+      >
+        <i className="fas fa-volume-up sound-icon"></i> {phonetic.text}
+      </button>
+    </div>
+  );
 }
