@@ -14,8 +14,13 @@ function App() {
         <Dictionary defaultKeyword="coffee" />
       </main>
       <footer className="App-footer">
-         <img src={logo} className="Ele-logo" alt="logo" />
-        <small>Coded by Eleanor Ruse Open Sourced on GitHub</small>
+        <a href="https://www.linkedin.com/in/eleanor-ruse-8aa6a011b/" target="_blank" rel="noreferrer">
+          <img src={logo} className="Ele-logo" alt="logo" />
+        </a>
+        <small>Coded by <a href="https://www.linkedin.com/in/eleanor-ruse-8aa6a011b/">Eleanor Ruse</a>{" "}and{" "}
+        <a href="https://github.com/EleanorRuse/dictionary-project">
+          Open-sourced on Github
+        </a></small>
         </footer>
     </div>
     </div>

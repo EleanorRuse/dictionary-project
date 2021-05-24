@@ -34,3 +34,6 @@ a {
   margin: 30px 0;
 }
 
+.App-footer a {
+  text-decoration: none;
+}
