@@ -52,10 +52,10 @@ if (loaded){
             <h1>What word are you looking for? </h1>
     <form onSubmit={handleSubmit}>
        <input type="search" onChange={handleKeywordChange}
-       defaultValue={props.defaultKeyword}/>
+       defaultValue={props.defaultKeyword}/> 
     </form>
     <div className="hint">
-        Suggested words: Computer, Code, Wine, Holiday, Eucalyptus
+       🔎 Suggested words: Computer, Code, Wine, Holiday, Eucalyptus
     </div>
     </section>
     <Results results={results} />

@@ -11,7 +11,7 @@ function App() {
 <img src={banner} className="Ele-logo" alt="logo" />
       </header>
       <main>
-        <Dictionary defaultKeyword="coffee" />
+        <Dictionary defaultKeyword="coffee"/>
       </main>
       <footer className="App-footer">
         <a href="https://www.linkedin.com/in/eleanor-ruse-8aa6a011b/" target="_blank" rel="noreferrer">
