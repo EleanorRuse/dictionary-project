@@ -2,8 +2,15 @@ body{
  background:#fff;
 }
 
+
 a {
     color: #9670f4;
+}
+
+
+.App{
+  max-width:960px;
+  margin:0 auto;
 }
 
 .dictionary-header
