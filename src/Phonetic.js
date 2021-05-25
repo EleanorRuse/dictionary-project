@@ -10,7 +10,7 @@ export default function Phonetics({ phonetic }) {
   return (
     <div className="Phonetic">
         <div className="callToPress">
- Pronuciation:< br/>
+ Listen To Pronuciation:< br/>
 <small>Press button ⬇️</small>
     </div>
       <button
