@@ -3,20 +3,21 @@
 }
 
 .Phonetic button{
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 5px 5px;
-  width: 150px;
+  width: 100px;
   background-color: #003366;
-  margin: 10px;
+  margin: 4px;
   border: solid 1px #003366;
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(245, 245, 245) ;
 }
 
 button{
 transition: all ease-in-out, 500ms;
 }
+
 .Phonetic button:hover{
-  background-color: whitesmoke;
+  background-color: #e3eaf0;
   color: #000;
 }

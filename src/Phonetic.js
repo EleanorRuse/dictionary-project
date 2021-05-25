@@ -11,13 +11,12 @@ export default function Phonetics({ phonetic }) {
     <div className="Phonetic">
         <div className="callToPress">
 
-Listen 🔊
+Click To Listen:
     </div>
       <button
         className="btn btn-outline-dark"
-        onClick={() => playSound(audio)}
-      >
-        <i className="fas fa-volume-up sound-icon"></i> {phonetic.text}
+        onClick={() => playSound(audio) }     >
+        <i className="fas fa-volume-up sound-icon"></i> {phonetic.text}🔊
       </button>
     </div>
   );
