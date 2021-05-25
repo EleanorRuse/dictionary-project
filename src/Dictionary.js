@@ -53,6 +53,7 @@ if (loaded){
     <form onSubmit={handleSubmit}>
        <input type="search" onChange={handleKeywordChange}
        defaultValue={props.defaultKeyword}/> 
+       <button type="submit">Search</button>
     </form>
     <div className="hint">
        🔎 Suggested words: Computer, Code, Wine, Holiday, Eucalyptus

@@ -14,11 +14,29 @@ background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 .Dictionary input {
-    width:100%;
+    width:80%;
     padding:6px 4px; 
     border: 1px solid #ddd;
     color:#333;
     border-radius: 6px;
+}
+
+.Dictionary button{
+  border-radius: 5px;
+  padding: 3px 3px;
+  width: 150px;
+  background-color: #D7A184;
+  margin: 10px;
+  border: solid 1px #D7A184;
+  font-size: 20px;
+  color: black ;
+}
+
+button{
+transition: all ease-in-out, 500ms;
+}
+button:hover{
+  background-color: whitesmoke;
 }
 
 .Dictionary .hint{
