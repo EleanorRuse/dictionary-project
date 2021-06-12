@@ -1,0 +1,23 @@
+.Phonetic {
+   margin:10px 0;
+}
+
+.Phonetic button{
+  border-radius: 20px;
+  padding: 5px 5px;
+  width: 100px;
+  background-color: #003366;
+  margin: 4px;
+  border: solid 1px #003366;
+  font-size: 15px;
+  color: rgb(245, 245, 245) ;
+}
+
+button{
+transition: all ease-in-out, 500ms;
+}
+
+.Phonetic button:hover{
+  background-color: #e3eaf0;
+  color: #000;
+}
